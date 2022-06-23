@@ -1,0 +1,22 @@
+{
+  "_welcome": "Welcome",
+  "_toMyApp": "to my app",
+  "_userName": "User Name",
+  "_email": "Email",
+  "_phone": "Phone",
+  "_password": "Password",
+  "_enterYourUserName": "Enter your user name",
+  "_enterYourEmail": "Enter your email",
+  "_enterYourPhone": "Enter your phone",
+  "_enterYourPassword": "Enter your password",
+  "_confirmPassword": "Confirm password",
+  "_signIn": "SIGN IN",
+  "_signUp": "SIGN UP",
+  "_createAcc": "Create new account",
+  "_youHaveAnAccount": "You have an account",
+  "_dontAcc": "Do haven't an account ?",
+
+  "_signUpFail": "Sign Up Fail",
+  "_signInFail": "Sign In Fail",
+  "_warning": "Not be empty"
+}

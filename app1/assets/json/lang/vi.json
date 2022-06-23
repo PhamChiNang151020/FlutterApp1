@@ -1,0 +1,22 @@
+{
+  "_welcome": "Chào mừng",
+  "_toMyApp": "đến với ứng dụng của tôi",
+  "_userName": "Tên người dùng",
+  "_email": "Email",
+  "_phone": "Điện thoại",
+  "_password": "Mật khẩu",
+  "_enterYourUserName": "Nhập tên người dùng của bạn",
+  "_enterYourEmail": "Nhập email của bạn",
+  "_enterYourPhone": "Nhập số điện thoại của bạn",
+  "_enterYourPassword": "Nhập mật khẩu",
+  "_confirmPassword": "Xác nhận mật khẩu",
+  "_signIn": "ĐĂNG NHẬP",
+  "_signUp": "ĐĂNG KÝ",
+  "_createAcc": "Tạo tài khoản mới",
+  "_youHaveAnAccount": "Bạn có một tài khoản",
+  "_dontAcc": "Bạn chưa có tài khoản ?",
+
+  "_signUpFail": "Đăng ký thất bại",
+  "_signInFail": "Đăng nhập thất bại",
+  "_warning":"Không được để trống"
+}
