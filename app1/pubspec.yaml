@@ -28,5 +28,6 @@ flutter:
     - assets/icon/
     - assets/images/
     - assets/json/lang/
+    - assets/json/menu/
 
   uses-material-design: true

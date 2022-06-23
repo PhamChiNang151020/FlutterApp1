@@ -18,5 +18,14 @@
 
   "_signUpFail": "Đăng ký thất bại",
   "_signInFail": "Đăng nhập thất bại",
-  "_warning":"Không được để trống"
+  "_warning": "Không được để trống",
+
+  "_permission": "Cho phép",
+  "_access": "Truy cập",
+  "home": "Nhà",
+  "remote": "Từ xa",
+  "notifications": "Thông báo",
+  "room": "Phòng",
+  "services": "Dịch vụ",
+  "_logOut": "Đăng xuất"
 }

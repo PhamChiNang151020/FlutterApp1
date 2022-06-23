@@ -18,5 +18,14 @@
 
   "_signUpFail": "Sign Up Fail",
   "_signInFail": "Sign In Fail",
-  "_warning": "Not be empty"
+  "_warning": "Not be empty",
+
+  "_permission": "Permission",
+  "_access": "Access",
+  "home": "Home",
+  "remote": "Remote",
+  "notifications": "Notifications",
+  "room": "Room",
+  "services": "Services",
+  "_logOut":"Log out"
 }

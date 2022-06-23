@@ -1,0 +1,17 @@
+[
+  {
+    "name": "home",
+    "icon": "assets/icon/home.png",
+    "screen": ""
+  },
+  {
+    "name": "remote",
+    "icon": "assets/icon/remote.png",
+    "screen": ""
+  },
+  {
+    "name": "notifications",
+    "icon": "assets/icon/notifications.png",
+    "screen": ""
+  }
+]

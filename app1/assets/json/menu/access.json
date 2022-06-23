@@ -1,0 +1,12 @@
+[
+  {
+    "name": "room",
+    "icon": "assets/icon/room.png",
+    "screen": ""
+  },
+  {
+    "name": "services",
+    "icon": "assets/icon/services.png",
+    "screen": ""
+  }
+]
