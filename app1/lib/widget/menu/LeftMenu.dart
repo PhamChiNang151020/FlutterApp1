@@ -14,7 +14,7 @@ class LeftMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
-        color: menuColor,
+        color: defaultColor,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -63,18 +63,26 @@ class LeftMenu extends StatelessWidget {
                                             print(
                                                 item1[index1].name.toString());
                                           },
-                                          leading: Image(
-                                            width: 30,
-                                            height: 30,
-                                            image: AssetImage(
-                                                item1[index1].icon.toString()),
+                                          leading: Container(
+                                            decoration: BoxDecoration(
+                                              color: defaultColor,
+                                              borderRadius: BorderRadius.all(
+                                                  Radius.circular(8)),
+                                            ),
+                                            child: Padding(
+                                              padding:
+                                                  const EdgeInsets.all(5.0),
+                                              child: Image(
+                                                width: 30,
+                                                height: 30,
+                                                image: AssetImage(item1[index1]
+                                                    .icon
+                                                    .toString()),
+                                              ),
+                                            ),
                                           ),
-                                          trailing: Image(
-                                            width: 20,
-                                            height: 20,
-                                            image: AssetImage(
-                                                'assets/icon/rightBTN.png'),
-                                          ),
+                                          trailing:
+                                              Icon(Icons.keyboard_arrow_right),
                                           title: Text(
                                             item1[index1].name.toString(),
                                             style: TextStyle(
@@ -133,18 +141,32 @@ class LeftMenu extends StatelessWidget {
                                             print(
                                                 item2[index2].name.toString());
                                           },
-                                          leading: Image(
-                                            width: 30,
-                                            height: 30,
-                                            image: AssetImage(
-                                                item2[index2].icon.toString()),
+                                          // leading: Image(
+                                          //   width: 30,
+                                          //   height: 30,
+                                          //   image: AssetImage(
+                                          //       item2[index2].icon.toString()),
+                                          // ),
+                                          leading: Container(
+                                            decoration: BoxDecoration(
+                                              color: defaultColor,
+                                              borderRadius: BorderRadius.all(
+                                                  Radius.circular(8)),
+                                            ),
+                                            child: Padding(
+                                              padding:
+                                                  const EdgeInsets.all(5.0),
+                                              child: Image(
+                                                width: 30,
+                                                height: 30,
+                                                image: AssetImage(item2[index2]
+                                                    .icon
+                                                    .toString()),
+                                              ),
+                                            ),
                                           ),
-                                          trailing: Image(
-                                            width: 20,
-                                            height: 20,
-                                            image: AssetImage(
-                                                'assets/icon/rightBTN.png'),
-                                          ),
+                                          trailing:
+                                              Icon(Icons.keyboard_arrow_right),
                                           title: Text(
                                             item2[index2].name.toString(),
                                             style: TextStyle(
@@ -201,10 +223,16 @@ class BtnLogout extends StatelessWidget {
             // print(item1[index1].name.toString());
             print('Đăng xuất');
           },
-          leading: Image(
-            width: 30,
-            height: 30,
-            image: AssetImage('assets/icon/log_out.png'),
+          leading: Container(
+            decoration: BoxDecoration(
+              color: defaultColor,
+              borderRadius: BorderRadius.all(Radius.circular(8)),
+            ),
+            child: Image(
+              width: 30,
+              height: 30,
+              image: AssetImage('assets/icon/log_out.png'),
+            ),
           ),
           title: Text(
             '_logOut'.tr(),
@@ -228,7 +256,7 @@ class HeaderMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       // height: 250,
-      color: menuColor,
+      color: defaultColor,
       child: Center(
         child: Column(
           children: [
