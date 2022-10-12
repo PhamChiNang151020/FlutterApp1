@@ -66,9 +66,7 @@ class _FormSignInState extends State<FormSignIn> {
               },
               decoration: InputDecoration(
                 suffixIcon: IconButton(
-                  icon: Icon(_isObscure1
-                      ? FontAwesomeIcons.lock
-                      : FontAwesomeIcons.lockOpen),
+                  icon: Icon(_isObscure1   ? FontAwesomeIcons.lock  : FontAwesomeIcons.lockOpen),
                   onPressed: () {
                     setState(() {
                       _isObscure1 = !_isObscure1;
